@@ -30,7 +30,7 @@ class CustomeMypy(PluginBase):
         mypy_targets = lint_config.mypy_targets if lint_config else None
 
         component = Mypy(
-            name="custome-mypy",
+            name="custom-mypy",
             setting=setting,
             mypy_targets=mypy_targets,
         )
