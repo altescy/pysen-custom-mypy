@@ -6,6 +6,9 @@ You can overwrite mypy setting like below:
 
 ```pyproject.toml
 # pyproject.toml
+[tool.pysen.plugin.custom_mypy]
+script = ".pysen/custom_mypy.py"
+
 [tool.pysen.plugin.custom_mypy.config]
 check_untyped_defs = false
 ```
