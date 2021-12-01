@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pysen-custome-mypy"
+name = "pysen-custom-mypy"
 version = "0.1.0"
 description = ""
 authors = ["altescy <altescy@fastmail.com>"]
@@ -35,10 +35,10 @@ mypy_preset = "strict"
   includes = ["."]
   excludes = [".venv/"]
 
-[tool.pysen.plugin.custome_mypy]
-script = ".pysen/custome_mypy.py"
+[tool.pysen.plugin.custom_mypy]
+script = ".pysen/custom_mypy.py"
 
-[tool.pysen.plugin.custome_mypy.config]
+[tool.pysen.plugin.custom_mypy.config]
 check_untyped_defs = false
 disallow_untyped_defs = false
 
