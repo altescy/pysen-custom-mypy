@@ -8,7 +8,7 @@ from pysen.plugin import PluginBase
 from pysen.pyproject_model import Config, PluginConfig
 
 
-class CustomeMypy(PluginBase):
+class CustomMypy(PluginBase):
     def load(
         self,
         file_path: pathlib.Path,
@@ -37,5 +37,5 @@ class CustomeMypy(PluginBase):
         return [component]
 
 
-def plugin() -> CustomeMypy:
-    return CustomeMypy()
+def plugin() -> CustomMypy:
+    return CustomMypy()
